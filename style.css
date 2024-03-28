@@ -1,70 +1,83 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: "Inter", sans-serif;
-  }
-  
-  header {
-    width: 100vw;
-    height: 5vh;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 1%;
-  }
-  
-  h1 {
-    font-size: 80px;
-    color: #5B0B9B;
-    text-align: center;
-  }
-  
-  .modo {
-    margin-top: 2%;
-    margin-right: 2%;
-  }
-  
-  main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80vh;
-    width: 100vw;
-  }
-  
-  
-  .coluna {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 7vw;
-    height: 100vh;
-    background-color: #5B0B9B;
-  }
-  
-  footer {
-    text-align: center;
-  }
-  
-  
-  textarea {
-    background: none;
-    width: 50vw;
-    resize: none;
-    height: auto;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 1px solid black;
-    padding: 15px 0;
-    outline: none;
-    line-height: 1.3;
-    overflow-wrap: break-word;
-  }
-  
-  .tradutor{
-    padding-bottom: 90px;
-  }
-  
-  .modo img{
-    width: 40px;
-  }
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+}
+
+h1 {
+  font-size: 90px;
+  color: #5B0B9B;
+  text-align: center;
+}
+
+.modo {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.modo button{
+  background: transparent;
+  border: none;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  width: 100vw;
+}
+
+select {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: #5B0B9B;
+  color: white
+}
+
+
+.coluna {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 7vw;
+  height: 100vh;
+  background-color: #5B0B9B;
+}
+
+footer {
+  text-align: center;
+}
+
+
+textarea {
+  background: none;
+  width: 50vw;
+  resize: none;
+  height: auto;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+  padding: 15px 0;
+  outline: none;
+  line-height: 1.3;
+  overflow-wrap: break-word;
+}
+
+.tradutor {
+  padding-bottom: 90px;
+}
+
+.modo img {
+  width: 40px;
+}
