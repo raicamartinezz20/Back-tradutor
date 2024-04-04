@@ -17,36 +17,41 @@
     <h1>TopLingo</h1>
 
     <div class="modo">
-      <button id="modo" class="changeButton"><img src="./img/lua-crescente.png" alt="modo-noturno"></button>
+      <button id="escurecer" class="changeButton"><img src="./img/lua-crescente.png" alt="modo-noturno"></button>
     </div>
   </header>
-
   <main>
     <div class="container">
       <div class="content">
+        <div class="microfone">
+          <button id="microfone" class="microfone"><img src="./img/microfone.png" alt="microfone"</button>
+        </div>
         <div class="divTextareas">
           <div class="tradutor">
-            <textarea id="textareaFrom" placeholder="Olá!"></textarea>
-            <select name="traducao" id="tradu">
-                <option value="Portugues">Português</option>
-                <option value="Ingles">Inglês</option>
-                <option value="Espanhol">Espanhol</option>
-                <option value="Alemao">Alemão</option>
-                <option value="Frances">Francês</option>
+            <textarea id="texto" placeholder="Olá!"></textarea>
+            <select name="traducao" id="select1">
+                <option value="pt">Português</option>
+                <option value="en">Inglês</option>
+                <option value="es">Espanhol</option>
+                <option value="de">Alemão</option>
+                <option value="fr">Francês</option>
             </select>     
           </div>
+          <div class="som">
+            <button id="som" class="som"><img src="./img/som.png" alt="som"</button>
+          </div>
           <div class="traducao">
-            <textarea id="textareaFrom" placeholder="Hello!"></textarea>
-            <select name="traducao" id="tradu">
-                <option value="Ingles">Inglês</option>
-              <option value="Portugues">Português</option>
-              <option value="Espanhol">Espanhol</option>
-              <option value="Alemao">Alemão</option>
-                <option value="Frances">Francês</option>
+            <textarea id="impressao" placeholder="Hello!"></textarea>
+            <select name="traducao" id="select2">
+                <option value="en">Inglês</option>
+              <option value="pt">Português</option>
+              <option value="es">Espanhol</option>
+              <option value="de">Alemão</option>
+                <option value="fr">Francês</option>
             </select>       
             </div>
             <div class="button-traduzir">
-              <button>
+              <button id="traduzir">
                 <a> Traduzir </a>
             </button>
             </div>

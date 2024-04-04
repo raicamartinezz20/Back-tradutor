@@ -4,12 +4,16 @@
   font-family: "Inter", sans-serif;
 }
 
+body{
+  height: 100vh;
+  width: 100vw;
+}
+
 header {
   width: 100vw;
   height: 5vh;
   display: flex;
   justify-content: center;
-  margin-top: 1%;
 }
 
 h1 {
@@ -41,7 +45,8 @@ select {
   margin-bottom: 20px;
   margin-top: 20px;
   background-color: #5B0B9B;
-  color: white
+  color: white;
+
 }
 
 
@@ -74,10 +79,36 @@ textarea {
   overflow-wrap: break-word;
 }
 
+
 .tradutor {
   padding-bottom: 90px;
 }
 
 .modo img {
   width: 40px;
+}
+
+.escuro{
+  background-color: gray;
+}
+
+.clarear{
+  background-color: white;
+}
+
+.microfone button{
+  background: transparent;
+  border: none;
+}
+
+.som button{
+  background: transparent;
+  border: none;
+}
+
+#traduzir{
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: #5B0B9B;
+  color: white;
 }
